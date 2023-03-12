@@ -168,5 +168,47 @@ button{
     background:#fff; 
     padding:0 10px;    
 } 
+
+footer {
+    background-color: #f3f6f8;
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+    color: #8d949e;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer-links li {
+    margin-right: 15px;
+  }
+  
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-links a {
+    color: #8d949e;
+    text-decoration: none;
+  }
+
   
 
